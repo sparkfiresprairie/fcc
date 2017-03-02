@@ -4,19 +4,22 @@
     <meta charset="UTF-8">
     <title>Random Quote Machine</title>
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="random_quote_machine.js"></script>
 </head>
 <body>
 <div class="bg-info">
     <div class="container text-center">
         <blockquote class="text-center">
-            <p>"the pride of the Chinese scientists and technologists."</p>
+            <p id="quote">"the pride of the Chinese scientists and technologists."</p>
             <footer>
                 <cite>Deng Xiaoping</cite>
             </footer>
         </blockquote>
         <div class="row">
-            <button class="btn btn-danger col-xs-1">Twitter<i class="fa fa-twitter"></i></button>
-            <button class="btn btn-danger">New quote</button>
+            <button class="btn btn-danger col-xs-1">Twitter <i class="fa fa-twitter"></i></button>
+            <button id="new-quote-btn" class="btn btn-danger">New quote</button>
         </div>
         <footer class="text-center">
             <hr>
