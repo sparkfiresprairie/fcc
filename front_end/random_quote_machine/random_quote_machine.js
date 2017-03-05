@@ -2,6 +2,9 @@
  * Created by Xingyuan on 3/2/17.
  */
 
+var colors = ['#16a085', '#27ae60', '#2c3e50', '#f39c12', '#e74c3c', '#9b59b6', '#FB6964', '#342224', "#472E32", "#BDBB99", "#77B1A9", "#73A857"];
+var currentQuote = "", currentAuthor = "";
+
 // https://market.mashape.com/andruxnet/random-famous-quotes
 function getQuote() {
     $.ajax({
@@ -20,7 +23,7 @@ function getQuote() {
         },
         cache: false
     });
-};
+}
 
 function inIframe () {
     try {
@@ -28,14 +31,14 @@ function inIframe () {
     } catch (e) {
         return true;
     }
-};
+}
 
 // https://dev.twitter.com/web/tweet-button/web-intent
 function tweetQuote() {
     if (!inIframe()) {
         window.open("https://twitter.com/intent/tweet?hashtags=RandomQuoteMachine&text=" + encodeURI('"' + currentQuote + '"' + " - " + currentAuthor));
     }
-};
+}
 
 $(document).ready(function() {
     getQuote();
