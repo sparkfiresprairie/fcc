@@ -10,34 +10,29 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script type="text/javascript" src="random_quote_machine.js"></script>
 </head>
-<body>
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-xs-4 col-xs-offset-4">
-            <div class="panel" id="quote-box">
-                <div class="row">
-                    <div id="text-box">
-                        <p class="text-center" id="quote-text"></p>
-                        <p class="text-center">
-                            - <em><span id="quote-author"></span></em>
-                        </p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xs-1 col-xs-offset-1">
-                        <button class="btn" id="tweet-quote-btn"><i class="fa fa-twitter"></i></button>
-                    </div>
-                    <div class="col-xs-1 col-xs-offset-7">
-                        <button class="btn" id="new-quote-btn">New quote</button>
-                    </div>
-                </div>
+<body class="container-fluid">
+<div class="row">
+    <div class="panel col-xs-4 col-xs-offset-4">
+        <div class="row">
+            <div id="text-box">
+                <p class="text-center" id="quote-text"></p>
+                <p class="text-center" id="cite">
+                    - <em><span id="quote-author"></span></em>
+                </p>
             </div>
-            <div class="text-center">
-                <p>Written and coded by <a href="https://www.linkedin.com/in/xingyuanwang/" target="_blank">Xingyuan
-                    Wang</a>.</p>
+        </div>
+        <div class="row" id="button-row">
+            <div class="col-xs-1 col-xs-offset-1">
+                <button class="btn" id="tweet-quote-btn"><i class="fa fa-twitter"></i></button>
+            </div>
+            <div class="col-xs-2 col-xs-offset-6">
+                <button class="btn" id="new-quote-btn">New quote</button>
             </div>
         </div>
     </div>
 </div>
+<footer class="text-center">
+    <p>Written and coded by <a href="https://www.linkedin.com/in/xingyuanwang/" target="_blank">Xingyuan Wang</a>.</p>
+</footer>
 </body>
 </html>

@@ -4,11 +4,35 @@
 
 .row {
     margin-top: 7.5%;
-    margin-bottom: 5%;
 }
 
 #text-box {
     margin-left: 10%;
     margin-right: 10%;
+}
+
+#button-row {
+    margin-bottom: 5%;
+}
+
+#quote-text {
+    font-size: x-large;
+}
+
+button {
+    color: #ffffff;
+}
+
+.btn:hover, .btn:focus, .btn:active {
+    color: #ffffff;
+    opacity: 0.8;
+}
+
+footer {
+    color: #ffffff;
+}
+
+a {
+    color: #ffffff;
 }
 

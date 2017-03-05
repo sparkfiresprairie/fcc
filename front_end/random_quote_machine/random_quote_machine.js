@@ -2,7 +2,8 @@
  * Created by Xingyuan on 3/2/17.
  */
 
-var colors = ['#16a085', '#27ae60', '#2c3e50', '#f39c12', '#e74c3c', '#9b59b6', '#FB6964', '#342224', "#472E32", "#BDBB99", "#77B1A9", "#73A857"];
+// Flat UI color swatches http://designmodo.github.io/Flat-UI/
+var colors = ["#16A085", "#27AE60", "#2980B9", "#8E44AD", "#2C3E50", "#F39C12", "#D35400", "#C0392B", "#BDC3C7", "#7F8C8D"];
 var currentQuote = "", currentAuthor = "";
 
 // https://market.mashape.com/andruxnet/random-famous-quotes
@@ -16,10 +17,27 @@ function getQuote() {
         url: "https://andruxnet-random-famous-quotes.p.mashape.com/?cat=famous",
         success: function (response) {
             var r = JSON.parse(response);
+            var idx = Math.floor(Math.random() * colors.length);
             currentQuote = r.quote;
             currentAuthor = r.author;
-            $("#quote-author").html(currentAuthor);
-            $("#quote-text").html(currentQuote);
+            $("#quote-text").fadeOut("slow", "linear", function() {
+                $(this).html(currentQuote);
+                $(this).css("color", colors[idx]);
+                $(this).fadeIn();
+            })
+            $("#cite").fadeOut("slow", "linear", function() {
+                $("#quote-author").html(currentAuthor);
+                $(this).css("color", colors[idx]);
+                $(this).fadeIn();
+            })
+            $(".btn").fadeOut("slow", "linear", function() {
+                $(this).css("background-color", colors[idx]);
+                $(this).fadeIn();
+            })
+            $(".container-fluid").fadeOut("slow", "linear", function() {
+                $(this).css("background-color", colors[idx]);
+                $(this).fadeIn();
+            })
         },
         cache: false
     });

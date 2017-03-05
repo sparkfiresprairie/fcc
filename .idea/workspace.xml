@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f216bfd4-6590-480b-aad1-4fb4e383f7f8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front_end/random_quote_machine/random_quote_machine.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front_end/random_quote_machine/random_quote_machine.css" afterPath="$PROJECT_DIR$/front_end/random_quote_machine/random_quote_machine.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front_end/random_quote_machine/random_quote_machine.html" afterPath="$PROJECT_DIR$/front_end/random_quote_machine/random_quote_machine.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/front_end/random_quote_machine/random_quote_machine.js" afterPath="$PROJECT_DIR$/front_end/random_quote_machine/random_quote_machine.js" />
     </list>
@@ -26,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="random_quote_machine.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="random_quote_machine.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/front_end/random_quote_machine/random_quote_machine.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="79">
-              <caret line="10" column="74" lean-forward="true" selection-start-line="10" selection-start-column="74" selection-end-line="10" selection-end-column="74" />
+            <state relative-caret-position="637">
+              <caret line="37" column="7" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="37" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -39,18 +38,18 @@
       <file leaf-file-name="random_quote_machine.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/front_end/random_quote_machine/random_quote_machine.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+            <state relative-caret-position="126">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="random_quote_machine.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="random_quote_machine.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/front_end/random_quote_machine/random_quote_machine.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="4" column="15" lean-forward="true" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+            <state relative-caret-position="972">
+              <caret line="56" column="127" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
               <folding>
                 <element signature="e#0#41#0" expanded="false" />
               </folding>
@@ -586,29 +585,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front_end/random_quote_machine/random_quote_machine.js">
+    <entry file="file://$PROJECT_DIR$/front_end/random_quote_machine/random_quote_machine.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="4" column="15" lean-forward="true" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="637">
+          <caret line="37" column="7" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="37" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/front_end/random_quote_machine/random_quote_machine.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        <state relative-caret-position="126">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front_end/random_quote_machine/random_quote_machine.html">
+    <entry file="file://$PROJECT_DIR$/front_end/random_quote_machine/random_quote_machine.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="10" column="74" lean-forward="true" selection-start-line="10" selection-start-column="74" selection-end-line="10" selection-end-column="74" />
-          <folding />
+        <state relative-caret-position="972">
+          <caret line="56" column="127" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
