@@ -4,17 +4,15 @@ We’re an open source community that helps you learn to code.
 ##Basic Front End Development Projects
 ###Build a Tribute Page
 
-- Objective: Build a CodePen.io app that is functionally similar to this: https://codepen.io/FreeCodeCamp/full/NNvBQW/.
-
 - Fulfill the below user stories. Use whichever libraries you need. Give it your own personal style.
 
 - User Story: I can view a tribute page with an image and text.
 
 - User Story: I can click on a link that will take me to an external website with further information on the topic.
 
-###Build a Personal Portfolio Webpage
+- My Tribute Page: http://codepen.io/sparkfiresprairie/full/wJKjpK/
 
-- Objective: Build a CodePen.io app that is functionally similar to this: https://codepen.io/FreeCodeCamp/full/YqLyXB/.
+###Build a Personal Portfolio Webpage
 
 - Fulfill the below user stories. Use whichever libraries you need. Give it your own personal style.
 
@@ -29,10 +27,10 @@ We’re an open source community that helps you learn to code.
 ##Intermediate Front End Development Projects
 ###Build a Random Quote Machine
 
-- Objective: Build a CodePen.io app that is functionally similar to this: https://codepen.io/FreeCodeCamp/full/ONjoLe/.
-
 - Fulfill the below user stories. Use whichever libraries or APIs you need. Give it your own personal style.
 
 - User Story: I can click a button to show me a new random quote.
 
 - User Story: I can press a button to tweet out a quote.
+
+- My Random Quote Machine: http://codepen.io/sparkfiresprairie/full/VpedJa/
