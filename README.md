@@ -1,8 +1,8 @@
-#Free Code Camp
+#Free Code Camp#
 We’re an open source community that helps you learn to code.
 
-##Basic Front End Development Projects
-###Build a Tribute Page
+##Basic Front End Development Projects##
+###Build a Tribute Page###
 
 - Fulfill the below user stories. Use whichever libraries you need. Give it your own personal style.
 
@@ -12,7 +12,7 @@ We’re an open source community that helps you learn to code.
 
 - My Tribute Page: http://codepen.io/sparkfiresprairie/full/wJKjpK/
 
-###Build a Personal Portfolio Webpage
+###Build a Personal Portfolio Webpage###
 
 - Fulfill the below user stories. Use whichever libraries you need. Give it your own personal style.
 
@@ -24,8 +24,8 @@ We’re an open source community that helps you learn to code.
 
 - User Story: I navigate to different sections of the webpage by clicking buttons in the navigation.
 
-##Intermediate Front End Development Projects
-###Build a Random Quote Machine
+##Intermediate Front End Development Projects##
+###Build a Random Quote Machine###
 
 - Fulfill the below user stories. Use whichever libraries or APIs you need. Give it your own personal style.
 
