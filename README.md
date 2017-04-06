@@ -44,3 +44,5 @@ We’re an open source community that helps you learn to code.
 - User Story: I can see a different icon or background image (e.g. snowy mountain, hot desert) depending on the weather.
 
 - User Story: I can push a button to toggle between Fahrenheit and Celsius.
+
+- My Local Weather App: http://codepen.io/sparkfiresprairie/full/EWWgvr/
